@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>tic-tac-toe</title>
+</head>
+<body>  
+    <div id="chooseopponent" class="chooseopponent" style="display: none">
+        <p>CHOOSE OPPONENT</p>
+        <button id="CPU">CPU</button>
+       <button id="player2_opps">PLAYER2</button>
+   
+       </div>
+
+
+    <div id="startscreen" class="startscreen" style="display: none">
+     <p>PLAYER1 CHOOSE:</p>
+     <button id="X">X</button>
+    <button id="O">O</button>
+
+    </div>
+
+
+    <div id="results" class="results" style="display: none">
+        <p id="P_results"> <span id="The_winner">  </span></p>
+        <button id="restart">restart</button>
+        <!-- <button id="continue">continue</button> -->
+    </div>
+    <div class="game-container">
+
+        <div class="header">
+           
+            <span  > <i class="fa-solid fa-x"></i></i><i class="fa-solid fa-o"></i></span> 
+            <span id="Turn" class="turn"> Turn </span>
+
+            <!-- <span id="text"><i class="fa-solid fa-arrow-rotate-left"></i></span> -->
+            
+        </div>
+       
+        
+        <div class="Game">
+
+
+            
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            <button class="spot" ></button>
+            
+
+
+        </div>
+
+
+
+        <!-- <div class="footer">  
+            <button id="player1" >you</button>
+            <button id="tie" >tie</button>
+            <button id="player2" >cpu</button>
+
+        </div> -->
+
+
+    </div>
+ <!-- <i class="fa-solid fa-x" id="x" style="display: none;"> -->
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<!-- BODY -->
+<body>
+
+
+    <div class="Password-Generator">
+        <h4>Password Generator</h4>
+    </div>
+        <div class="The-Password" >
+            <h1 id="Password">The Password</h1>
+        </div>
+
+
+
+<!-- main Body -->
+    <div class="The-container">
+
+       
+
+
+            <div class="Charachter-length">
+                
+               <label for="Charachter_length"> Charachter length</label>
+                <span id="length"> length </span>
+                <input type="range"  id="Charachter_length" min="0" max="10">
+                </div>
+
+        <div class="maininputs">
+            <div class="number-container" class="CB-input">
+            <input type="checkbox"  id="number">
+            <label for="number"> include numbers</label>
+            </div>
+          
+
+
+            <div class="small_letters-container" class="CB-input">
+                <input type="checkbox" id="small_letters">
+                <label for="small_letters"> include small letters</label>
+                </div>
+
+
+            <div class="Capital_letters-container" class="CB-input">
+                <input type="checkbox" id="Capital_letters">
+                <label for="Capital_letters"> include Capital letters</label>
+                </div>
+
+            <div class="symbols-container" class="CB-input">
+                <input type="checkbox" id="symbols">
+                <label for="symbols"> symbols</label>
+                </div>    
+
+        </div>        
+
+
+
+
+
+            <button id="btn" onclick="Generate()">Generate</button>
+
+      
+
+
+
+
+    </div>    
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

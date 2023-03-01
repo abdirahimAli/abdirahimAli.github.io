@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    background: linear-gradient(to right, #2c5364, #457a8c, #0f2027);
+  }
+  
+
+
+button {
+    min-height: 90px;
+    min-width: 90px;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    background: rgb(200, 200, 200);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  .Game {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin-top: 20%;
+  }
+  .header{
+    /* background-color: #203a43; */
+  }
+  .header span{
+    font-size: 20px;
+    display: inline;
+    padding-left: 10%;
+    
+
+  }
+
+  .footer{
+    margin-left: 3.5%;
+  }
+  .footer button{
+    min-height: 50px;
+    min-width: 94.4px;
+
+  }
+  .green_base{
+    background-color: green;
+  }
+  .yellow_base{
+    background-color: yellow;
+  }
+  .results{
+    position: absolute;
+    width: 600px;
+    height: 190px;
+    color: aliceblue;
+    background-color: #0f2027 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+  }
+  .results p{
+    margin-left: 20%;
+    font-size: 30px;
+  }
+  .results button{
+    margin-left:250px ;
+    background-color: aqua;
+    font-size: small;
+  }
+  .turn{
+    margin-left: 5%;
+  }
+  .fa-arrow-rotate-left{
+    margin-left: 10%;
+  }
+  .fa-arrow-rotate-left:active{
+transform: translateY(2px);
+  }
+
+.startscreen{
+  position: absolute;
+  width: 600px;
+    height: 190px;
+    margin-top: -30%;
+    color: aliceblue;
+    background-color: #0f2027 ;
+    display:block;
+    flex-direction: column;
+    
+}
+.startscreen p {
+  /* margin-top: 20%;*/
+  margin-left: 32%; 
+}
+.startscreen button{
+  margin-left: 18%;
+}
+#X{
+  background-color: green;
+}
+#O{
+  background-color: yellow;
+}
+
+/*  */
+
+.chooseopponent{
+  position: absolute;
+  width: 600px;
+  height: 190px;
+  margin-top: -30%;
+    color: aliceblue;
+    background-color: #0f2027 ;
+    display:block;
+    flex-direction: column;
+    
+}
+.chooseopponent p {
+  /* margin-top: 20%; */
+  margin-left: 30%;
+}
+.chooseopponent button{
+  margin-left: 18%;
+}
+#CPU{
+  background-color: rgb(20, 228, 235);
+}
+#player2_opps{
+  background-color: rgb(20, 228, 235);
+}
