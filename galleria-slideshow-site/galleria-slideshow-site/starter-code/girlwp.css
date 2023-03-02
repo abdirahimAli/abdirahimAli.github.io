@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+  max-height: 50vh;
+}
+
+header {
+  min-height: 10vh;
+  background-color: primecolor;
+  border-bottom: 1px solid #ccc;
+}
+header .Start_slideshow {
+  padding-top: 4px;
+  margin-left: 80%;
+  font-weight: lighter;
+  font-size: 20px;
+}
+header .galleria {
+  padding-top: 4px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+footer {
+  max-height: 10vh;
+  background-color: primecolor;
+  border-top: 1px solid #19191a;
+  margin-top: 80px;
+  padding-left: 30px;
+  position: absolute;
+}
+
+.container {
+  margin-top: 80px;
+  margin-left: 30px;
+  display: flex;
+}
+.container .deawingimg1 img {
+  width: 500px;
+  height: 600px;
+}
+.container .deawingimg2 {
+  margin-top: 500px;
+  margin-left: 30px;
+}
+.container .text {
+  position: relative;
+  display: flex;
+}
+.container .text h1 {
+  display: block;
+  background-color: white;
+  padding: 60px;
+  font-size: 90px;
+  margin-left: -220px;
+  margin-top: 0px;
+}
+.container .text .for-TheBoyintheRedVest-h1 {
+  font-size: 60px;
+  margin-left: -230px;
+  width: 340px;
+}
+.container .text .for-TheBoyintheRedVest-h4 {
+  margin-top: 50px;
+}
+.container .text h4 {
+  margin-top: -120px;
+  margin-left: -150px;
+  display: block;
+}
+.container .text p {
+  margin-left: 100px;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: larger;
+  height: 430px;
+  color: rgba(20, 20, 20, 0.963);
+}
+.container .text .for-PenitentMagdalene {
+  width: 400px;
+  margin-left: 50px;
+}
+.container .text .for-StarryNight {
+  width: 400px;
+  margin-left: 200px;
+}
+.container .text .TheBasketofApples {
+  width: 400px;
+  margin-left: 80px;
+}
+.container .text .for-TheBoyintheRedVest {
+  width: 320px;
+  margin-left: 130px;
+  margin-top: 170px;
+  font-size: 20px;
+}
+.container .text .for-TheGreatWaveoffKanagawa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.container .text .for-TheNightCafé {
+  width: 350px;
+  font-size: 80px;
+}
+.container .text .for-TheStormontheSeaofGalilee-h1 {
+  width: 350px;
+  font-size: 70px;
+}
+.container .text .for-VanGoghSelf-portrait {
+  width: 450px;
+  font-size: 50px;
+}
+.container .text .for-VanGoghSelf-portrait-h4 {
+  margin-top: 10px;
+}
+.container .text .number {
+  position: absolute;
+  font-size: 200px;
+  color: rgba(204, 204, 204, 0.3137254902);
+  margin-left: 350px;
+}/*# sourceMappingURL=girlwp.css.map */

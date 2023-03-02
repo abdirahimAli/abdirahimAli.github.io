@@ -1,0 +1,439 @@
+@charset "UTF-8";
+img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.container .starry_night {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .starry_night .image_container img {
+  width: 310px;
+  height: 250PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .starry_night .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 3%;
+}
+.container .starry_night .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 3%;
+}
+.container .GirlwithaPearlEarring {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .GirlwithaPearlEarring .image_container img {
+  width: 310px;
+  height: 400PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .GirlwithaPearlEarring .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 3%;
+}
+.container .GirlwithaPearlEarring .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 3%;
+}
+.container .Guernica {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .Guernica .image_container img {
+  width: 310px;
+  height: 285PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .Guernica .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+.container .Guernica .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 3%;
+  color: rgba(255, 255, 255, 0.9411764706);
+}
+.container .PenitentMagdalene {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .PenitentMagdalene .image_container img {
+  width: 310px;
+  height: 250PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .PenitentMagdalene .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 3%;
+}
+.container .PenitentMagdalene .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 3%;
+  color: rgba(255, 255, 255, 0.9411764706);
+}
+.container .TheStormontheSeaofGalilee {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .TheStormontheSeaofGalilee .image_container {
+  margin-top: -150px;
+}
+.container .TheStormontheSeaofGalilee .image_container img {
+  width: 310px;
+  height: 340PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheStormontheSeaofGalilee .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 2%;
+}
+.container .TheStormontheSeaofGalilee .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 2%;
+  color: rgba(255, 255, 255, 0.9411764706);
+}
+.container .TheGreatWaveoffKanagawa {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .TheGreatWaveoffKanagawa .image_container img {
+  width: 310px;
+  height: 280PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheGreatWaveoffKanagawa .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: rgba(22, 20, 20, 0.982);
+}
+.container .TheGreatWaveoffKanagawa .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 2%;
+  color: rgba(22, 21, 21, 0.9411764706);
+}
+.container .VanGoghSelf-portrait {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .VanGoghSelf-portrait .image_container {
+  margin-top: -110px;
+}
+.container .VanGoghSelf-portrait .image_container img {
+  width: 310px;
+  height: 500PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .VanGoghSelf-portrait .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 2%;
+  color: rgba(22, 20, 20, 0.982);
+}
+.container .VanGoghSelf-portrait .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 29%;
+  margin-left: 2%;
+  color: rgba(22, 21, 21, 0.9411764706);
+}
+.container .TheSleepingGypsy {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .TheSleepingGypsy .image_container {
+  margin-top: -150px;
+}
+.container .TheSleepingGypsy .image_container img {
+  width: 310px;
+  height: 250PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheSleepingGypsy .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheSleepingGypsy .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+.container .LadywithanErmine {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .LadywithanErmine .image_container {
+  margin-top: -200px;
+}
+.container .LadywithanErmine .image_container img {
+  width: 310px;
+  height: 420PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .LadywithanErmine .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 2%;
+  color: white;
+}
+.container .LadywithanErmine .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheNightCafé {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .TheNightCafé .image_container {
+  margin-top: -100px;
+}
+.container .TheNightCafé .image_container img {
+  width: 310px;
+  height: 260PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheNightCafé .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheNightCafé .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheBasketofApples {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .TheBasketofApples .image_container {
+  margin-top: -300px;
+}
+.container .TheBasketofApples .image_container img {
+  width: 310px;
+  height: 430PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheBasketofApples .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheBasketofApples .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheBoyintheRedVest {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: -300px;
+}
+.container .TheBoyintheRedVest .image_container img {
+  width: 310px;
+  height: 260PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .TheBoyintheRedVest .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  color: white;
+}
+.container .TheBoyintheRedVest .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+.container .ArnolfiniPortrait {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: -380px;
+}
+.container .ArnolfiniPortrait .image_container img {
+  width: 310px;
+  height: 330PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .ArnolfiniPortrait .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 13%;
+  margin-left: 2%;
+  color: white;
+}
+.container .ArnolfiniPortrait .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2%;
+  color: white;
+}
+.container .MonaLisa {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 10px;
+}
+.container .MonaLisa .image_container img {
+  width: 310px;
+  height: 525PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.container .MonaLisa .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 2%;
+  color: white;
+}
+.container .MonaLisa .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 2%;
+  color: white;
+}
+
+.TheSwing {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  margin-left: 74%;
+  margin-top: -26%;
+}
+.TheSwing .image_container img {
+  width: 310px;
+  height: 340PX;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+.TheSwing .image_container h2 {
+  color: white;
+  position: absolute;
+  margin-top: 83%;
+  margin-left: 2%;
+  color: white;
+}
+.TheSwing .image_container h4 {
+  color: rgba(255, 255, 255, 0.585);
+  position: absolute;
+  margin-top: 95%;
+  margin-left: 2%;
+  color: white;
+}
+
+header {
+  min-height: 10vh;
+  background-color: primecolor;
+  border-bottom: 1px solid #ccc;
+}
+header .Start_slideshow {
+  padding-top: 4px;
+  margin-left: 80%;
+  font-weight: lighter;
+  font-size: 20px;
+}
+header .galleria {
+  padding-top: 4px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */

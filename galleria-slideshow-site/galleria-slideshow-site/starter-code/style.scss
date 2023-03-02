@@ -1,0 +1,443 @@
+$primecolor: rgba(255, 255, 255, 0);
+
+body{
+    // min-width: 100vw;
+    // min-height: 100vh;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:fill;
+}
+ @mixin images($Height,$Width){
+    width: $Width;
+    height: $Height;
+    margin-top: 30px;
+    margin-left: 2px;
+   
+
+
+ }
+
+ @mixin  H2($ftop,$fleft){
+    color: white;
+    position: absolute;
+     margin-top: $ftop;
+     margin-left: $fleft;
+ }
+ @mixin  H4($ftop,$fleft){
+    color: rgba(255, 255, 255, 0.585);
+    position: absolute;
+    margin-top: $ftop;
+    margin-left: $fleft;
+ }
+
+
+
+
+
+////////////////////////////////////////////////////////////////////
+
+.container{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+ 
+.starry_night{
+    width: fit-content;
+    height:fit-content;
+    
+.image_container{
+    //  @include images(250PX,310px,'./assets/starry-night/gallery.jpg');
+   img{
+    
+    @include images(250PX,310px)
+   }
+    h2{
+        @include H2(12%,3%);
+    }
+    h4{
+        @include H4(14%,3%);
+    }
+        
+}
+}
+/////////
+.GirlwithaPearlEarring{
+    width: fit-content;
+    height:fit-content;
+   
+    .image_container{
+
+        img{
+    
+            @include images(400PX,310px)
+           }
+       
+         h2{
+            @include H2(21%,3%);
+        }
+        h4{
+            @include H4(25%,3%);
+        } 
+    }
+    }
+
+
+.Guernica{
+    width: fit-content;
+    height:fit-content;
+    .image_container{
+
+        img{
+
+            @include images(285PX,310px)
+            }
+        
+            h2{
+            @include H2(15%,3%);
+        }
+        h4{
+            @include H4(17%,3%);
+            color: #fffffff0;
+        } 
+    }
+    }
+
+
+.PenitentMagdalene{
+    width: fit-content;
+    height:fit-content;
+    .image_container{
+
+        img{
+    
+            @include images(250PX,310px)
+            }
+        
+            h2{
+            @include H2(12%,3%);
+        }
+        h4{
+            @include H4(16%,3%);
+            color: #fffffff0;
+        } 
+    }
+    }
+
+
+
+
+.TheStormontheSeaofGalilee{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(340PX,310px)
+                    
+            }
+            margin-top:-150px;
+        
+            h2{
+            @include H2(18%,2%);
+        }
+        h4{
+            @include H4(22%,2%);
+            color: #fffffff0;
+        } 
+    }
+    }
+
+.TheGreatWaveoffKanagawa{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(280PX,310px)
+                    
+            }
+            //  margin-top:-150px;
+        
+            h2{
+            @include H2(15%,2%);
+            color: rgba(22, 20, 20, 0.982);
+        }
+        h4{
+            @include H4(19%,2%);
+            color: #161515f0;
+        } 
+    }
+    }
+
+.VanGoghSelf-portrait{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(500PX,310px)
+                    
+            }
+              margin-top:-110px;
+        
+            h2{
+            @include H2(25%,2%);
+            color: rgba(22, 20, 20, 0.982);
+        }
+        h4{
+            @include H4(29%,2%);
+            color: #161515f0;
+        } 
+    }
+    }
+    
+
+.TheSleepingGypsy{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(250PX,310px)
+                    
+            }
+                margin-top:-150px;
+        
+            h2{
+            @include H2(13%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(15%,2%);
+            color:white;
+        } 
+    }
+    }
+
+
+    .LadywithanErmine{
+        // background-color: aqua;
+        width: fit-content;
+        height:fit-content;
+    
+        .image_container{
+    
+            img{
+        
+                @include images(420PX,310px)
+                        
+                }
+                    margin-top:-200px;
+            
+                h2{
+                @include H2(23%,2%);
+                color:white;
+            }
+            h4{
+                @include H4(25%,2%);
+                color:white;
+            } 
+        }
+        }    
+
+
+.TheNightCafé{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(260PX,310px)
+                    
+            }
+                margin-top:-100px;
+        
+            h2{
+            @include H2(13%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(15%,2%);
+            color:white;
+        } 
+    }
+    }
+
+
+.TheBasketofApples{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+
+    .image_container{
+
+        img{
+    
+            @include images(430PX,310px)
+                    
+            }
+                margin-top:-300px;
+        
+            h2{
+            @include H2(13%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(15%,2%);
+            color:white;
+        } 
+    }
+    }     
+    
+
+
+.TheBoyintheRedVest{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+    margin-top: -300px;;
+    .image_container{
+
+        img{
+    
+            @include images(260PX,310px)
+                    
+            }
+                
+        
+            h2{
+            @include H2(13%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(15%,2%);
+            color:white;
+        } 
+    }
+    }      
+    
+     
+.ArnolfiniPortrait{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+    margin-top:-380px;
+    .image_container{
+
+        img{
+    
+            @include images(330PX,310px)
+                    
+            }
+                 
+        
+            h2{
+            @include H2(13%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(15%,2%);
+            color:white;
+        } 
+    }
+    } 
+    
+
+
+.MonaLisa{
+   //  background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+//margin-right: -250px;
+margin-top:10px;
+    .image_container{
+
+        img{
+    
+            @include images(525PX,310px)
+                    
+            }
+                    
+        
+            h2{
+            @include H2(30%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(32%,2%);
+            color:white;
+        } 
+    }
+    }     
+
+
+
+}
+
+
+.TheSwing{
+    // background-color: aqua;
+    width: fit-content;
+    height:fit-content;
+position: absolute;
+margin-left: 74%;
+margin-top: -26%;
+
+    .image_container{
+
+        img{
+    
+            @include images(340PX,310px)
+                    
+            }
+                   
+        
+            h2{
+            @include H2(83%,2%);
+            color:white;
+        }
+        h4{
+            @include H4(95%,2%);
+            color:white;
+        } 
+    }
+    }
+header{
+    min-height: 10vh;
+    background-color:primecolor;
+    border-bottom: 1px solid #ccc;
+    
+        .Start_slideshow{
+            padding-top: 4px;
+            margin-left: 80%;
+            font-weight:lighter;
+            font-size: 20px;
+    
+       }
+       .galleria{
+        padding-top: 4px;
+        margin-left: 15px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    }
