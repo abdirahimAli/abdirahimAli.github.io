@@ -46,16 +46,6 @@ function TOdo_item(){
           newlist_item.remove() 
      } ) 
 
-
-// newlist_item.addEventListener('dragstart',()=>{
-
-//   this.className += 'drge'
-//   setTimeout(()=> this.ClassName = 'invisible',0)
-//   console.log('hi')
-// }) 
-
-
-
 } 
 
 }

@@ -289,3 +289,43 @@ small{
 }
 
 
+
+
+@media only screen and (max-width: 416px) {
+
+  .first_background{
+    width: 100%;
+  }
+
+  .theme-switch-wrapper{
+    margin-right: 240px;
+  }
+  .icon-moon{
+    margin-top: -85px;
+  }
+
+
+.add_item{
+  width: 63%;
+  margin-top: 10%;
+  margin-left: 50px;
+}
+
+  .properties{
+    width: 70%;
+    margin-top: 60%;
+    margin-left: 50px;
+    padding: 5px;
+    
+    
+    }
+  .element{
+    width: 260px;
+    margin-left: -110px;
+    /* margin-top: 200px; */
+  }
+ .div_tasks{
+  margin-top: 340px;
+ }
+
+  }
