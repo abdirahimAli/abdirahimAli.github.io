@@ -37,7 +37,7 @@ Drawing5.addEventListener('click',()=>{
 })
 Drawing6.addEventListener('click',()=>{
 
-   window.location.href = "./The-Storm-on-the-Sea-of-Galilee.html";
+   window.location.href = "./the-great-wave-off-kanagawa.html";
 })
 Drawing7.addEventListener('click',()=>{
 
