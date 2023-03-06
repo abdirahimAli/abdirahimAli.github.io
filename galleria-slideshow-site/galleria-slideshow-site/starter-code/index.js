@@ -42,11 +42,11 @@ Drawing6.addEventListener('click',()=>{
 })
 Drawing7.addEventListener('click',()=>{
 
-   window.location.href = "./van-gogh-self-portrait.html";
+//   window.location.href = "./van-gogh-self-portrait.html";
 })
 Drawing8.addEventListener('click',()=>{
 
-   window.location.href = "./the-sleeping-gypsy.html";
+//   window.location.href = "./the-sleeping-gypsy.html";
 })
 Drawing9.addEventListener('click',()=>{
 
