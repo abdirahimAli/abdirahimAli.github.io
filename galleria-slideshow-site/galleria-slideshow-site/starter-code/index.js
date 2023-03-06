@@ -32,7 +32,8 @@ Drawing4.addEventListener('click',()=>{
    
 })
 Drawing5.addEventListener('click',()=>{
-   window.location.href = "./The-Storm-on-the-Sea-of-Galilee.html";
+   window.location.href = "./van-gogh-self-portrait.html"
+    //"./The-Storm-on-the-Sea-of-Galilee.html";
 
 })
 Drawing6.addEventListener('click',()=>{
