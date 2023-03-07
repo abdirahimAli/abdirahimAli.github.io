@@ -32,7 +32,7 @@ Drawing4.addEventListener('click',()=>{
    
 })
 Drawing5.addEventListener('click',()=>{
-   window.location.href ="./The-Storm-on-the-Sea-of-Galilee.html";
+   window.location.href ="./the-storm-on-the-sea-of-galilee.html";
 
 })
 Drawing6.addEventListener('click',()=>{
