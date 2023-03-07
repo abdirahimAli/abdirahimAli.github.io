@@ -32,21 +32,19 @@ Drawing4.addEventListener('click',()=>{
    
 })
 Drawing5.addEventListener('click',()=>{
-   window.location.href = "./van-gogh-self-portrait.html"
-    //"./The-Storm-on-the-Sea-of-Galilee.html";
+   window.location.href ="./The-Storm-on-the-Sea-of-Galilee.html";
 
 })
 Drawing6.addEventListener('click',()=>{
 
    window.location.href = "./the-great-wave-off-kanagawa.html";
 })
-Drawing7.addEventListener('click',()=>{
-
-//   window.location.href = "./van-gogh-self-portrait.html";
+Drawing7.addEventListener('click',()=>{ 
+ window.location.href = "./van-gogh-self-portrait.html";
 })
 Drawing8.addEventListener('click',()=>{
 
-//   window.location.href = "./the-sleeping-gypsy.html";
+  window.location.href = "./the-sleeping-gypsy.html";
 })
 Drawing9.addEventListener('click',()=>{
 
