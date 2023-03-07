@@ -32,6 +32,7 @@ Drawing4.addEventListener('click',()=>{
    
 })
 Drawing5.addEventListener('click',()=>{
+
    window.location.href ="./the-storm-on-the-sea-of-galilee.html";
 
 })
